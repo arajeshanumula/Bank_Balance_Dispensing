@@ -1,0 +1,32 @@
+																		Bank Balance and Dispensing System
+																======================================================
+
+The following features are implemented in this Bank Balance and Dispensing System project:	
+==========================================================================================
+		1)	Display transactional accounts with balances
+		2)	Display currency accounts with converted Rand values
+		3)	Withdraw cash	
+		
+Tools and Technologies Used			
+============================
+		1)	Spring Boot - 2.0.4.RELEASE
+		2)	JDK - 1.8			
+		3)	JSP
+		4)	IDE - Eclipse or Spring Tool Suite (STS)
+		5)	Spring Data JP
+		6)	Maven	
+		7)	H2 database									
+
+To Setup the application follow the below steps:
+=======================================================
+1)	In Eclipse, select File > Import…
+2)	In the import window, expand Maven, select Existing Maven Projects, and click Next:		
+3)	Click Browse, and select the directory that contains the pom.xml file of the project you want to import:
+4) 	Click Finish. Eclipse will import the project and start downloading the required resources.		
+5)	Right click on project > Maven > Update Project	
+6)	After resolving all compilation issues > Right click on the project > Run AS > Spring Boot App
+7) 	(or) Right click on the project > Run AS > Maven Build...  >
+8) 	In Edit Configuration window, for Goals type clean spring-boot:run and optionally give the run configuration a new name	
+9)	Once Application was started > open the H2 console in browser and run the insert queries > Modified queries are present in given path \Bank_Balance_Dispensing\src\main\resources\SQL DATA.txt
+
+						                                     
